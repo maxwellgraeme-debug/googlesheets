@@ -34,5 +34,5 @@ Why this works:
 - `DROP(..., 1)` removes that temporary seed row from the final result.
 - Each `IMPORTRANGE` still starts at `C2`, so headings are not duplicated.
 
-If a source spreadsheet has not been authorised yet, allow access for that
+If a source spreadsheet has not been authorized yet, allow access for that
 `IMPORTRANGE` source once and then the full stacked formula will recalculate.
